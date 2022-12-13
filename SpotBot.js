@@ -1,6 +1,6 @@
 const eris = require('eris');
+const prefix = '!sb';
 const {bot_token} = require('./config.json');
-
 const bot = new eris.Client(bot_token);
 
 bot.on('ready', () => {
